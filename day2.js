@@ -122,6 +122,7 @@ console.log(execute(square, 10, 10));
 
 
 
+
 //Returning functions
 function createMultiplier(x) 
 {
@@ -140,6 +141,8 @@ console.log(double(5));
 
 
 
+
+
 //Default parameters
 function greet(name = "User") {
     return `Hello ${name}`;
@@ -147,6 +150,7 @@ function greet(name = "User") {
 
 console.log(greet());
 console.log(greet("Rashed"));
+
 
 
 
@@ -163,10 +167,14 @@ console.log(sum(10, 20));
 
 
 
+
+
 // map
 const numbers = [1, 2, 3, 4, 5];
 const tripled = numbers.map(x => x * 3);
 console.log(tripled);
+
+
 
 
 
@@ -182,7 +190,6 @@ console.log(result);
 const num = numbers.forEach(n => {
     console.log(n);
 });
-
 
 
 
