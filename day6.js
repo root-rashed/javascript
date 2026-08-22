@@ -8,8 +8,6 @@ console.log(message);
 
 
 
-
-
 const price = 100;
 const quantity = 3;
 console.log(`Total: ${price * quantity}`);
